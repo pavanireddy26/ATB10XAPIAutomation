@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1">
+
+    <test name="ATB10XAPIAutomation">
+        <groups>
+            <run>
+                <include name="p1">
+
+                </include>
+            </run>
+        </groups>
+
+
+
+        <classes>
+            <class name="org.example.ex_08_TestNG_Example.APITesting018_TestNG_Groups">
+            </class>
+        </classes>
+    </test>
+</suite>
