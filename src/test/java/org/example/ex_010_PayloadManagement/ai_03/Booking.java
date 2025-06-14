@@ -1,6 +1,8 @@
  package org.example.ex_010_PayloadManagement.ai_03;
 
-    public class Booking {
+ import org.example.ex_010_PayloadManagement.gson.Bookingdates;
+
+ public class Booking {
 
         private String firstname;
         private String lastname;
@@ -46,8 +48,8 @@
             return bookingdates;
         }
 
-        public void setBookingdates(BookingDates bookingdates) {
-            this.bookingdates = bookingdates;
+        public void setBookingdates(Bookingdates bookingdates) {
+            bookingdates = bookingdates;
         }
 
         public String getAdditionalneeds() {
