@@ -27,7 +27,7 @@ public class APITesting005_Multiple_TestCases {
                 .basePath("/IN/"+pincode)
                 .when()
                 .get()
-                .then().log().all().statusCode(200);
+                .then().log().all().statusCode(404);
 
 
 
@@ -44,7 +44,7 @@ public class APITesting005_Multiple_TestCases {
 
 
 
-        pincode = "-1";
+        pincode = "@";
         RestAssured
                 .given()
                 .baseUri("https://api.zippopotam.us")
